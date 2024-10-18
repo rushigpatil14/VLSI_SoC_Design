@@ -518,7 +518,10 @@ This is a presta snapshot
 Now slack is reduced
 
 Again `run_synthesis`
+![11](https://github.com/user-attachments/assets/0dbe9c3e-0a9e-4535-a4f6-b9c746d18e61)
 
+![12](https://github.com/user-attachments/assets/3def3675-e6bd-4cd1-8bfb-59f95744c04b)
+![13](https://github.com/user-attachments/assets/0a617c4a-7580-442c-a59f-18c42663b9d1)
 
 After Slack MET run floorplan and placement
 
@@ -553,28 +556,30 @@ gen_pdn
 ####  Perform Detailed Routing
 Detailed routing connects the placed standard cells using metal layers according to the routing constraints, ensuring that signal and power nets are properly wired without design rule violations.
 Steps 
+
 1. Ensure you have the placement and CTS completed: Before starting routing, make sure the placement and clock tree synthesis (CTS) steps are successfully completed. If not, run:
 ```
 run_placement
 run_cts
 ```
-c:\Users\ankit\OneDrive\Desktop\dhanvanti\nasscon_sep\Screenshot 2024-10-02 161229.png c:\Users\ankit\OneDrive\Desktop\dhanvanti\nasscon_sep\Screenshot 2024-10-02 160632.png c:\Users\ankit\OneDrive\Desktop\dhanvanti\nasscon_sep\Screenshot 2024-10-02 155618.png
-
+ 
 ### 2. run detailed routing
 Before routing, make sure the placement and CTS steps are complete. If not, run:
 ```
 run_routing
 ```
-![routing](./images/Screenshot%202024-10-03%20005835.png)
-![routing](./images/Screenshot%202024-10-03%20005956.png)
-![routing](./images/Screenshot%202024-10-03%20010633.png)
+<img width="811" alt="Screenshot 2024-10-03 005835" src="https://github.com/user-attachments/assets/264ff18d-5994-4cec-8356-a3cee98f0108">
+<img width="811" alt="Screenshot 2024-10-03 005956" src="https://github.com/user-attachments/assets/4ad77108-c78f-4c7f-ac1d-e21ac622fd9d">
+
+ <img width="380" alt="Screenshot 2024-10-03 010633" src="https://github.com/user-attachments/assets/926ec86e-f895-41a4-834d-a8f62d5f92b9">
 
 ### post routing STA
 
-![routing](./images/Screenshot%202024-10-03%20010409.png)
-![routing](./images/Screenshot%202024-10-03%20010433.png)
+ 
 
+<img width="913" alt="Screenshot 2024-10-03 010409" src="https://github.com/user-attachments/assets/4b23097b-289b-4b4c-8927-ff12a421f002">
 
+<img width="926" alt="Screenshot 2024-10-03 010433" src="https://github.com/user-attachments/assets/c87b86df-1c64-4ba3-892f-f92b46763b8c">
 
 
 
