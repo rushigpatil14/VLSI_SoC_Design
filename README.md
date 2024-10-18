@@ -96,40 +96,38 @@ Below are essential Linux commands used throughout the labs:
 
 ### Running OpenLANE in Interactive Mode
 
-To execute OpenLANE in step-by-step mode:
+ 1. Start Interactive Mode in OpenLANE
+Open a terminal and run the following command to enter OpenLANE's interactive mode:
 
-```bash
-bash-4.2$ ./flow.tcl -interactive
-Package Import and Setup
-tcl
+
+![1](https://github.com/user-attachments/assets/28637a4c-a2ea-4106-ae12-a561659c1904)
+
+To run in interactive mode (step by step mode)
+
+    bash-4.2$ ./flow.tcl -interactive
+    
+    
+`Package import and check`
+
+    % package require openlane
+
+`Prepare design`
+
+To prepare and setup the design
+
+    % prep -design picorv32a
+
+![opnln](https://github.com/user-attachments/assets/2cbf45b0-cdf0-4e1b-912d-f452391947fe)
+
+
+` Synthesis `
+   % run_synthesis
+   
+![8](https://github.com/user-attachments/assets/b78542eb-ae3d-4df6-90ba-b60ceeae8284)
+![7](https://github.com/user-attachments/assets/6a2ff209-4b96-43cd-b651-b7d4d662c3c2)
+![6](https://github.com/user-attachments/assets/b900efee-4544-4cb8-bef5-218e92835267)
+![5](https://github.com/user-attachments/assets/9114098e-a8f0-4924-a738-f5acba38d175)
  
-% package require openlane
-% prep -design picorv32a
-![2](https://github.com/user-attachments/assets/d6681fa7-02fc-4856-b1f9-4a7e3ca30960)
 
-This will generate a new directory in the runs folder for storing the design’s results and reports.
-
-Running Synthesis
-tcl
- 
-% run_synthesis
-After synthesis, review the results, and proceed to the next steps, such as placement and routing.
-![6](https://github.com/user-attachments/assets/52a134b3-e43c-42ff-b535-e6e96f5f6aa5)
-
-
-bash
- 
-# Review configuration:
-config.tcl: Contains OpenLANE configurations.
-src: Contains Verilog and constraints files.
-
-![opnln](https://github.com/user-attachments/assets/1bf8e465-4d1a-42e9-8138-2e1b7a0a4346)
-![8](https://github.com/user-attachments/assets/a8decaf9-b71f-4fa0-9e67-3d64c3d8e729)
-![7](https://github.com/user-attachments/assets/7f7afd84-965c-4641-99c0-551436d87fd2)
-![6](https://github.com/user-attachments/assets/8ee7dd70-fac7-47ae-be6a-12e863a51a20)
-![5](https://github.com/user-attachments/assets/f8e73f46-0426-4c74-a1d4-543fd16f7269)
-![3](https://github.com/user-attachments/assets/06300983-ab3f-43bd-a902-a75275fd88cf)
-![2](https://github.com/user-attachments/assets/2c93efdc-fced-42bf-9a37-cf793c0fe10b)
-![1](https://github.com/user-attachments/assets/ba7c1c7b-34a8-4bf8-a6e2-96f3f1825f46)
 
  
