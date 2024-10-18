@@ -342,15 +342,13 @@ To open the Magic Tool use this command
 ```
 magic -d XR &
 ```
-![openmagictool](./images/openmagictool.png)
+ 
 ![6](https://github.com/user-attachments/assets/1a1496ce-75ed-4b4c-9b98-ddc5427eac23)
 
 ## Open the MET3 Layout File in MAGIC
 Open the met3.mag file:
 
-
-![metal3](./images/openm3magfile.png) 
-![alt text](./images/Screenshot%202024-09-30%20152355.png)
+ 
 ![7](https://github.com/user-attachments/assets/b5f6f128-7e3c-456e-b814-a6cbeaf2df27)
 
 #### Steps for Poly.9 Rule Correction:
@@ -365,14 +363,16 @@ Open the met3.mag file:
 5. **Run DRC:** Re-run the DRC after corrections to check for violations.
 
 6. **Adjust Layout as Needed:** Further tweak layout dimensions to meet design rules.
+<img width="614" alt="Screenshot 2024-09-30 154232" src="https://github.com/user-attachments/assets/87dcb36c-8723-4893-9fff-142aab08bd0c">
 
-![alt text](./images/Screenshot%202024-09-30%20154232.png) 
-![alt text](./images/loadpoly.png) 
-![alt text](./Screenshot%202024-09-30%20154602.png) 
+ 
+<img width="634" alt="loadpoly" src="https://github.com/user-attachments/assets/6513d62b-60a1-4c1b-9703-2cd86effef34">
+<img width="650" alt="Screenshot 2024-09-30 154602" src="https://github.com/user-attachments/assets/c272e143-e9b0-4164-ad26-39c9db56aad6">
 
 ### Updating the DRC
 To update the DRC, insert the following commands in the file:
-![updatedrc](./images/Screenshot%202024-09-30%20160129.png)
+ 
+ <img width="638" alt="Screenshot 2024-09-30 160129" src="https://github.com/user-attachments/assets/0d0e8fca-2bab-4489-bd89-d8d77dbc9baf">
 
 ### To update the DRC, insert the following commands in the file:
 ```
@@ -387,11 +387,10 @@ To update the DRC, insert the following commands in the file:
 ```
 Here are the snapshots of DRC checks
 
-![alt text](./images/poly9check.png)
-![alt text](./images/drc_check.png)
-![alt text](./images/drc_ckeck.png)
-
-
+ 
+<img width="644" alt="poly9check" src="https://github.com/user-attachments/assets/546af532-8b6e-41a6-b8a1-f9f88eb227ae">
+<img width="644" alt="drc_check" src="https://github.com/user-attachments/assets/e1ae06b5-af6e-415d-a4e9-3191f5c19aa2">
+<img width="638" alt="drc_ckeck" src="https://github.com/user-attachments/assets/46d311f7-8570-49f4-b945-3cff518542cc">
 
 
 ## Day 4 Pre-layout Timing Analysis and Importance of 
