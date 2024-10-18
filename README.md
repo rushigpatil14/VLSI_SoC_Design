@@ -538,7 +538,7 @@ add_lefs -src $lefs
 ``` 
 gen_pdn
 ```
-![alt text](<Screenshot 2024-10-02 011848-1.png>)
+ 
 
 ####  Perform Detailed Routing
 Detailed routing connects the placed standard cells using metal layers according to the routing constraints, ensuring that signal and power nets are properly wired without design rule violations.
