@@ -1,4 +1,4 @@
-# Digital VLSI SoC Design and Planning Training
+![1](https://github.com/user-attachments/assets/358da013-7097-4a3c-9bbe-f6b454d3c734)# Digital VLSI SoC Design and Planning Training
 
 ## Overview
 This repository showcases my work related to System-on-Chip (SoC) design, adhering to the methodologies provided in the NASSCOM VSD SoC Design Program.
@@ -267,8 +267,8 @@ Start by cloning the repository containing the inverter layout:
 cd Desktop/work/tools/openlane_working_dir/openlane
 git clone https://github.com/nickson-jose/vsdstdcelldesign.git
 ```
-![image](./images/clonerepo.png)
-![image](./images/repo.png)
+ 
+![1](https://github.com/user-attachments/assets/dc383429-5ade-404c-b4bf-189ea524e974)
 
 2. Navigate to the Inverter Layout Directory
 Change to the directory where the layout files are located:
@@ -277,14 +277,17 @@ Change to the directory where the layout files are located:
 cd vsdstdcelldesign
 cp sky130A.tech /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
 ```
-![alt text](cplibfilestosrc-1.png)
+ 
+![2](https://github.com/user-attachments/assets/9f9e1e2f-354f-4960-b86a-6b3a2e29bd50)
+
 3. Open the Inverter Layout in MAGIC
 To open the inverter layout in MAGIC, use the following command:
 ```
 magic -T sky130A.tech sky130_inv.mag &
 ```
-![image](./images/magicinverter.png)
-![image](./images/selctnmosregion.png)
+![3](https://github.com/user-attachments/assets/5d5b14eb-001c-48de-b9fe-f92d758e1708)
+
+ 
 
 4. Perform SPICE Extraction in MAGIC
 Extract the SPICE netlist from the layout by executing these commands in MAGIC:
@@ -294,11 +297,10 @@ extract all
 ext2spice cthresh 0 rthresh 0
 ext2spice
 ```
-![image](./images/extractall.png)
+ ![3](https://github.com/user-attachments/assets/cfb202c5-3957-4c7a-b8d5-da263defcbaa)
+![4](https://github.com/user-attachments/assets/cb4e991f-25d8-4961-a2b9-1417a9f7ec05)
 
-![image](./images/Screenshot%202024-09-29%20233428.png)
-
-![alttext](./images/spicefile.png)
+![5](https://github.com/user-attachments/assets/6fc22ae9-f688-4043-a921-451255a705dc)
 
 5. Load the SPICE File for Ngspice Simulation and Create a Plot
 
@@ -307,11 +309,9 @@ ext2spice
 ngspice sky130_inv.spice
 plot y vs a
 ```
-![alt text](./images/fatalerror.png)
+![6](https://github.com/user-attachments/assets/be432015-11ae-4c04-b0a6-3877bd77fe7e)
 
-![alt text](./images/plot.png)
-
-![image](./images/Screenshot%202024-09-30%20131732.png)
+ ![7](https://github.com/user-attachments/assets/eff569bc-7967-438b-96fa-31eb2bfcbfaf)
 
 ## Create a LEF file
 ### Examples of DRC Errors
@@ -343,6 +343,7 @@ To open the Magic Tool use this command
 magic -d XR &
 ```
 ![openmagictool](./images/openmagictool.png)
+![6](https://github.com/user-attachments/assets/1a1496ce-75ed-4b4c-9b98-ddc5427eac23)
 
 ## Open the MET3 Layout File in MAGIC
 Open the met3.mag file:
@@ -350,6 +351,7 @@ Open the met3.mag file:
 
 ![metal3](./images/openm3magfile.png) 
 ![alt text](./images/Screenshot%202024-09-30%20152355.png)
+![7](https://github.com/user-attachments/assets/b5f6f128-7e3c-456e-b814-a6cbeaf2df27)
 
 #### Steps for Poly.9 Rule Correction:
 
@@ -394,9 +396,9 @@ Here are the snapshots of DRC checks
 
 ## Day 4 Pre-layout Timing Analysis and Importance of 
 ## Steps Overview
-
-![trackfile](./images/opentrackfile.png)
-
+ 
+ 
+![photo_2024-10-18_23-41-44](https://github.com/user-attachments/assets/2e57dec9-9082-43ee-8992-3694ed38ec47)
 
 ### 1. Open the Custom Layout for Analysis
  - First, navigate to the layout directory and open the design in MAGIC.
@@ -421,36 +423,33 @@ In the tkcon terminal, use the following grid settings to align with the tracks:
 help grid
 grid 0.46um 0.34um 0.23um 0.17um
 ```
-![alt text](./images/Screenshot%202024-10-01%20130045.png)
-![alt text](./images/Screenshot%202024-10-01%20130633.png)
-
+ ![photo_2024-10-18_23-43-54](https://github.com/user-attachments/assets/7fc122d0-5b60-48a7-872b-b4d2eff0e3d1)
+![4](https://github.com/user-attachments/assets/44b2c09f-92af-42b8-8c0b-e53f96f1ed86)
 
 ### 3. Save Layout and Generate .lef File
 To save the layout in .lef format:
 ```
 save sky130_vsdinv.mag
 ```
-![leffile](./images/Screenshot%202024-10-01%20131806.png)
+ ![5](https://github.com/user-attachments/assets/fa7488bf-d8ff-4061-a2fb-1af82c1a0af1)
 
-![leffile](./images/Screenshot%202024-10-01%20131919.png)
+ ![6](https://github.com/user-attachments/assets/97071204-3ae5-4baa-9d5a-a8f24b8e18a2)
 
- 
 ```
 lef write
 ```
-![alt text](<Screenshot 2024-10-01 131723-2.png>)
+ ![4](https://github.com/user-attachments/assets/44b2c09f-92af-42b8-8c0b-e53f96f1ed86)
+
 
 Snapshot of .lef file
-
-![alt text](<Screenshot 2024-10-01 131919-1.png>)
-![alt text](<Screenshot 2024-10-01 131806-1.png>)
+ ![6](https://github.com/user-attachments/assets/5e55e87e-56b7-4772-98e6-4141e6ee2fc2)
 
 ### 4. Copy the .lef File to Source Directory
 Now, copy the .lef file into the source directory of your design:
 ```
 cp sky130_vsdinv.lef ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/
 ```
-![image](./images/cplibfilestosrc.png)
+ ![5](https://github.com/user-attachments/assets/1fff3e2f-f345-4a4d-97bb-96d0f7305211)
 
 ### 5. Add the .lef File in OpenLane Flow Configuration
 Modify the config.tcl file to include your custom .lef in the OpenLane flow:
@@ -471,10 +470,9 @@ To start the synthesis process, run:
 # Run synthesis
 run_synthesis
 ```
+![9](https://github.com/user-attachments/assets/8056a68a-0af1-47c4-8a92-94a6be9b157f)
 
-![images](./images/runsynthesis.png)
-![images](./images/Screenshot%202024-10-01%20145736.png)
-
+ 
 #### We will use following commands to  improve timing and run synthesis
 
 
@@ -492,9 +490,7 @@ echo $::env(SYNTH_DRIVING_CELL)
 
 `run_synthesis`
 
-![images](./images/chiparea.png)
-![images](./images/Screenshot%202024-10-01%20152614.png)
-![images](./images/Screenshot%202024-10-01%20153620.png)
+![9](https://github.com/user-attachments/assets/8056a68a-0af1-47c4-8a92-94a6be9b157f)
 
 #### now run floorplan using `run_floorplan`
 But it fails. Instead we can use these commands to run floorplan
@@ -505,36 +501,28 @@ tap_decap_or
 
 ```
 Now run placement using `run_placement`
-
-![images](./images/Screenshot%202024-10-01%20190308.png)
-![images](./images/placementzoom.png)
+ ![10](https://github.com/user-attachments/assets/9317247d-4ea7-44b4-8f5a-1c2627d1d052)
 
 ```
 # Command to view internal connectivity layers in tkcon window
 expand
 ```
-![images](./images/Screenshot%202024-10-01%20191608.png)
-
+ 
 ### Perform post-synthesis timing analysis using the OpenSTA tool 
 
 mybase.sdc
 ```
 ```
 This is a presta snapshot
-![images](./images/presta.png)
 
 Now slack is reduced
-![images](./images/reduceslack.png)
 
 Again `run_synthesis`
 
-![images](./images/Screenshot%202024-10-02%20011848.png)
 
 After Slack MET run floorplan and placement
 
-![images](./images/Screenshot%202024-10-02%20012043.png)
-
-
+ 
 
 ## Day 5 Task- To generate Power Distribution Network (PDN) and load the layout and Perform detailed routing
 
@@ -549,6 +537,8 @@ Power distribution is critical to ensure VDD and VSS are well connected across t
 ```
 prep -design picorv32a
 ```
+![d7](https://github.com/user-attachments/assets/c8044c0a-f13e-4443-86d4-e674a06616c7)
+
 3. Addiitional commands to include newly added lef to openlane flow merged.lef
 ```
 set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
