@@ -501,29 +501,17 @@ tap_decap_or
 ```
 Now run placement using `run_placement`
  ![10](https://github.com/user-attachments/assets/9317247d-4ea7-44b4-8f5a-1c2627d1d052)
-
+![11](https://github.com/user-attachments/assets/0dbe9c3e-0a9e-4535-a4f6-b9c746d18e61)
+![12](https://github.com/user-attachments/assets/3def3675-e6bd-4cd1-8bfb-59f95744c04b)
 ```
 # Command to view internal connectivity layers in tkcon window
 expand
 ```
- 
-### Perform post-synthesis timing analysis using the OpenSTA tool 
 
-mybase.sdc
-```
-```
-This is a presta snapshot
-
-Now slack is reduced
-
-Again `run_synthesis`
-![11](https://github.com/user-attachments/assets/0dbe9c3e-0a9e-4535-a4f6-b9c746d18e61)
-
-![12](https://github.com/user-attachments/assets/3def3675-e6bd-4cd1-8bfb-59f95744c04b)
 ![13](https://github.com/user-attachments/assets/0a617c4a-7580-442c-a59f-18c42663b9d1)
 
-After Slack MET run floorplan and placement
-
+ 
+ 
  
 
 ## Day 5 Task- To generate Power Distribution Network (PDN) and load the layout and Perform detailed routing
