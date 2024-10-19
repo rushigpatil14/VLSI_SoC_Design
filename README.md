@@ -344,13 +344,13 @@ To open the Magic Tool use this command
 magic -d XR &
 ```
  
-![6](https://github.com/user-attachments/assets/1a1496ce-75ed-4b4c-9b98-ddc5427eac23)
+![6](https://github.com/user-attachments/assets/1a1496ce-75ed-4b4c-9b9)
 
 ## Open the MET3 Layout File in MAGIC
 Open the met3.mag file:
 
  
-![7](https://github.com/user-attachments/assets/b5f6f128-7e3c-456e-b814-a6cbeaf2df27)
+![7](https://github.com/user-attachments/assets/b5f6f128-7e3c-456e-b814-a6cbeaf27)
 
 #### Steps for Poly.9 Rule Correction:
 
