@@ -5,7 +5,7 @@ This repository showcases my work related to System-on-Chip (SoC) design, adheri
 
 ### Internship Details
 - **Provider:** VLSI System Design  
-- **Duration:** September 17, 2024 – October 2, 2024  
+- **Duration:** October 2, 2024 - October 18, 2024 
 
 ### Acknowledgments
 - **Kunal Ghosh** – Co-founder, VSD Corp. Pvt. Ltd.  
