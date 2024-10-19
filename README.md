@@ -1,4 +1,5 @@
-![1](https://github.com/user-attachments/assets/358da013-7097-4a3c-9bbe-f6b454d3c734)# Digital VLSI SoC Design and Planning Training
+![1](https://camo.githubusercontent.com/6999970da3dda98961e295194c1e544cb8cf1872adad5252558240c7f4f082e5/68747470733a2f2f7777772e766c736973797374656d64657369676e2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f7673645f6c6f676f2e6a7067)
+# Digital VLSI SoC Design and Planning Training
 
 ## Overview
 This repository showcases my work related to System-on-Chip (SoC) design, adhering to the methodologies provided in the NASSCOM VSD SoC Design Program.
